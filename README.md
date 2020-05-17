@@ -1,7 +1,7 @@
 # CS449
 Foundation of software Engineering 
 
-## Lab 1/2 
+## Lab 1 & 2 
 
 This is a simple Android app with a single window and 2 data items. The app is for baseball umpires to keep track of the balls and strikes for each batter. It needs 2 counters, 1 for balls and 1 for strikes, and the following interface features:
 
