@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/strike_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_label_strike"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/strike_count_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/count_value_strike"
+            android:layout_marginStart="20dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ball_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_label_ball"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/ball_count_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/count_value_ball"
+            android:layout_marginStart="20dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/strike_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/button_label_strike"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ball_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_ball"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/totalOuts_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_label_totalOuts"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/totalOuts_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/count_value_ball"
+            android:layout_marginStart="20dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>
